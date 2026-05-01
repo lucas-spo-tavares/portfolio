@@ -51,12 +51,12 @@ Terraform variables can be overridden with `TF_VAR_*`, for example:
 TF_VAR_project_name=my-portfolio npm run deploy
 ```
 
-For this project, the default `.env.example` already points at your ACM certificate and `www` domain.
+For this project, copy `.env.example` to `.env` and set your ACM certificate ARN and `www` domain locally.
 
 If you want to override them inline instead, you can still do that:
 
 ```bash
-TF_VAR_acm_certificate_arn=arn:aws:acm:us-east-1:868112351099:certificate/eff08859-e4a3-4af0-9ad1-18c2fa87abf8 \
+TF_VAR_acm_certificate_arn=arn:aws:acm:us-east-1:<account-id>:certificate/<certificate-id> \
 TF_VAR_hosted_zone_name=lucas-tavares.com \
 TF_VAR_www_domain_name=www.lucas-tavares.com \
 npm run deploy
