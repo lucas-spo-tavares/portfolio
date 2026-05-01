@@ -1,0 +1,183 @@
+%-------------------------
+% Resume in LaTeX - OCR Friendly Version
+% Author: Lucas Tavares
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{geometry}
+
+\geometry{top=0.6in, bottom=0.6in, left=0.7in, right=0.7in}
+
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting - no scshape to avoid OCR confusion
+\titleformat{\section}{
+  \vspace{-4pt}\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+  {\Huge \textbf{Lucas Tavares}}
+\end{center}
+
+\begin{center}
+  +55 21 982877576
+\end{center}
+
+\begin{center}
+  lucas.spo.tavares@gmail.com
+\end{center}
+
+\begin{center}
+  linkedin.com/in/lucas-tavares-08581920a
+\end{center}
+
+\begin{center}
+  Rio de Janeiro, Brazil -- Brazilian/Portuguese
+\end{center}
+
+\vspace{4pt}
+
+%---------- OBJECTIVE ----------
+\section{Objective}
+
+\vspace{4pt}
+\small{Fullstack Developer with a focus on web frontend, building complex, product-driven applications using React, Vue, and Node.js. Experienced working across cross-functional teams to deliver real business value, from automating manual workflows to shipping AI-powered features in production.}
+\vspace{4pt}
+
+%---------- EXPERIENCE ----------
+\section{Professional Experience}
+
+\resumeSubHeadingListStart
+
+  \item
+    \textbf{Web Developer} -- Elevential \\
+    \small{September 2023 - Present | Teams of 4-10 (Devs, PO, Tech Lead, QA)}
+
+    \vspace{6pt}
+    \textbf{\small GarantiaBr - B2B Backoffice Platform}
+    \resumeItemListStart
+      \resumeItem{Developed a Next.js backoffice to manage which companies and users can access GarantiaBr's product suite, including onboarding flows for company departments and permission management.}
+      \resumeItem{Refactored a Django form module to support draft saving and file uploads, improving the robustness of the submission workflow.}
+      \resumeItem{Built reusable UI components with shadcn/ui, establishing a design system shared across multiple projects.}
+    \resumeItemListEnd
+
+    \vspace{2pt}
+    \textbf{\small Auren - Energy Commercialization Platform}
+    \resumeItemListStart
+      \resumeItem{Replaced a spreadsheet-and-email-based process with a B2B partner portal serving 30+ partners, automating most of the energy purchasing flow (final validation still requires human approval).}
+      \resumeItem{Built the frontend from scratch using Vue + PrimeVue, integrating with Salesforce to display quotation statuses and tracking data in real time.}
+      \resumeItem{Developed marketing campaign features (anniversary, Black Friday) within the platform.}
+    \resumeItemListEnd
+
+    \vspace{2pt}
+    \textbf{\small Solucx - User Feedback and Analytics Dashboard}
+    \resumeItemListStart
+      \resumeItem{Implemented an AI-powered chat in production, featuring conversation history, prompt favoriting, and integration with an AI backend.}
+      \resumeItem{Added two configurable dashboard item types: a prompt-based item and a fully custom item - users provided a JSON query and chart config, rendered via Highcharts, with a CodeMirror editor and JSONata for data transformation.}
+      \resumeItem{Stack: Vue + Element Plus, tested with Vitest.}
+    \resumeItemListEnd
+
+    \vspace{2pt}
+    \textbf{\small Dataside - Power BI Asset Management}
+    \resumeItemListStart
+      \resumeItem{Built a React application for managing user permissions and folder structures over Power BI assets.}
+    \resumeItemListEnd
+
+    \vspace{2pt}
+    \textbf{\small Congresso - Scientific Congress Management (Internal)}
+    \resumeItemListStart
+      \resumeItem{Developed an event calendar feature allowing organizers to create and visualize activities by day, room, and time slot.}
+      \resumeItem{Platform handled submission, review, and approval flows across three user roles: submitters, reviewers, and editors.}
+    \resumeItemListEnd
+
+  \vspace{4pt}
+  \item
+    \textbf{Fullstack Developer Intern} -- TokenLab \\
+    \small{October 2021 - September 2023 | Teams of 4-10}
+    \resumeItemListStart
+      \resumeItem{Frontend: Angular (product management app), Strapi CMS integration.}
+      \resumeItem{Backend: AWS services.}
+      \resumeItem{Real-time: Encrypted chat using GraphQL subscriptions.}
+      \resumeItem{Mobile: Flutter.}
+      \resumeItem{Developed strong habits around code versioning, agile planning, and cross-team collaboration.}
+    \resumeItemListEnd
+
+  \vspace{4pt}
+  \item
+    \textbf{Web Developer} -- Freelance \\
+    \small{July 2021 - October 2021}
+    \resumeItemListStart
+      \resumeItem{Built a CRUD web application to replace an Excel-based property rental management workflow for a private client. Frontend in Next.js (React) with Semantic UI; backend on Back4app. Deployed on Vercel.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%---------- EDUCATION ----------
+\section{Education}
+
+\resumeSubHeadingListStart
+  \item
+    \textbf{Bachelor of Computer Science} -- Universidade do Estado do Rio de Janeiro (UERJ) \\
+    \small{2024}
+\resumeSubHeadingListEnd
+
+%---------- CERTIFICATIONS ----------
+\section{Certifications}
+
+\resumeSubHeadingListStart
+  \item
+    \small{AWS Certified Cloud Practitioner -- \href{https://www.credly.com/badges/133ee89f-3ddb-4972-ab47-3abb559f8ef2/}{credly.com/badges/133ee89f-3ddb-4972-ab47-3abb559f8ef2}}
+\resumeSubHeadingListEnd
+
+%---------- SKILLS ----------
+\section{Skills}
+
+\resumeSubHeadingListStart
+  \item
+    \small{
+      \textbf{Languages:} JavaScript, TypeScript, Python, SQL, Dart, HTML, CSS, Shell Script \\
+      \textbf{Frontend:} React, Next.js, Vue, Angular, Tailwind, Shadcn/ui, Element Plus, PrimeVue \\
+      \textbf{Backend:} Node.js, Nest.js, Express, Django, TypeORM \\
+      \textbf{Mobile:} Flutter \\
+      \textbf{Tools and Infra:} Docker, AWS, GitHub, Bitbucket, GraphQL, REST, Linux \\
+      \textbf{Testing:} Jest, Vitest
+    }
+\resumeSubHeadingListEnd
+
+%---------- LANGUAGES ----------
+\section{Languages}
+
+\resumeSubHeadingListStart
+  \item
+    \small{
+      \textbf{Portuguese} -- Native \\
+      \textbf{English} -- B2 (EF SET Certificate -- \href{https://cert.efset.org/pt/rYd4yM}{cert.efset.org/pt/rYd4yM})
+    }
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
