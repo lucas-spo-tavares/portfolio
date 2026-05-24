@@ -27,6 +27,12 @@ npm run dev
 npm run build
 ```
 
+To rebuild the resume PDF from `resume.tex`:
+
+```bash
+npm run build:resume
+```
+
 ## Deploy
 
 Create a local `.env` from `.env.example`, then run:

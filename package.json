@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "deploy": "bash scripts/deploy.sh"
+    "deploy": "bash scripts/deploy.sh",
+    "build:resume": "bash scripts/build-resume.sh"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.0",
