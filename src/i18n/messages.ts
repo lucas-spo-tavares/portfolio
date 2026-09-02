@@ -10,8 +10,7 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
     "nav.contact": "Contact",
     "nav.language": "PT",
     "hero.tag": "{role} in {location}",
-    "hero.title":
-      "Building product interfaces that make complicated work feel obvious.",
+    "hero.title": "Building product interfaces that make complicated work feel obvious.",
     "hero.summary":
       "Fullstack Developer focused on web frontend, building complex, product-driven applications with React, Vue, and Node.js. I enjoy turning messy workflows into reliable, useful products.",
     "hero.primaryCta": "See selected work",
@@ -26,23 +25,19 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
     "hero.highlight3": "B2B portals and backoffice platforms",
     "hero.highlight4": "AWS Certified Cloud Practitioner",
     "section.work.eyebrow": "Selected work",
-    "section.work.title":
-      "Products shipped where business process meets interface craft.",
+    "section.work.title": "Products shipped where business process meets interface craft.",
     "section.work.description":
       "A compact tour through the projects from the resume, rewritten as portfolio stories.",
     "section.skills.eyebrow": "Toolkit",
-    "section.skills.title":
-      "Frontend-heavy fullstack with enough cloud to ship cleanly.",
+    "section.skills.title": "Frontend-heavy fullstack with enough cloud to ship cleanly.",
     "section.skills.description":
       "The stack leans toward product interfaces, but the work often crosses APIs, data, AWS, dashboards, and deployment paths.",
     "section.credentials.eyebrow": "Credentials",
-    "section.credentials.title":
-      "A foundation in computer science, plus practical cloud literacy.",
+    "section.credentials.title": "A foundation in computer science, plus practical cloud literacy.",
     "section.credentials.description":
       "Education, certification, and language context from the resume.",
     "section.contact.eyebrow": "Let's build",
-    "section.contact.title":
-      "Need someone who can move across UI, product, and delivery?",
+    "section.contact.title": "Need someone who can move across UI, product, and delivery?",
     "section.contact.email": "Email me",
     "section.contact.resume": "Resume PDF",
     "work.garantiabr.company": "Elevential",
@@ -50,8 +45,7 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
     "work.garantiabr.title": "GarantiaBr - B2B Backoffice Platform",
     "work.garantiabr.b1":
       "Built a backoffice for company, department, user onboarding, and permission management.",
-    "work.garantiabr.b2":
-      "Refactored Django form flows to support draft saving and file uploads.",
+    "work.garantiabr.b2": "Refactored Django form flows to support draft saving and file uploads.",
     "work.garantiabr.b3":
       "Created reusable UI components that became a shared design system across projects.",
     "work.auren.company": "Elevential",
@@ -77,12 +71,10 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
     "work.solucx.company": "Elevential",
     "work.solucx.period": "Sep 2023 - Present",
     "work.solucx.title": "Solucx - Feedback and Analytics Dashboard",
-    "work.solucx.b1":
-      "Shipped an AI chat with history, favoriting, and backend integration.",
+    "work.solucx.b1": "Shipped an AI chat with history, favoriting, and backend integration.",
     "work.solucx.b2":
       "Added configurable dashboard items powered by prompt-based and custom JSON chart definitions.",
-    "work.solucx.b3":
-      "Used JSONata and Highcharts to transform and render user-defined analytics.",
+    "work.solucx.b3": "Used JSONata and Highcharts to transform and render user-defined analytics.",
     "work.tokenlab.company": "TokenLab",
     "work.tokenlab.period": "Oct 2021 - Sep 2023",
     "work.tokenlab.title": "Fullstack Developer Intern",
@@ -100,8 +92,7 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
     "skills.backend": "Backend",
     "skills.infra": "Infra",
     "credentials.degree.label": "Bachelor of Computer Science",
-    "credentials.degree.detail":
-      "Universidade do Estado do Rio de Janeiro (UERJ), 2024",
+    "credentials.degree.detail": "Universidade do Estado do Rio de Janeiro (UERJ), 2024",
     "credentials.aws.label": "AWS Certified Cloud Practitioner",
     "credentials.aws.detail": "Credential issued through Credly",
     "credentials.languages.label": "Languages",
@@ -116,8 +107,7 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
     "nav.contact": "Contato",
     "nav.language": "EN",
     "hero.tag": "{role} em {location}",
-    "hero.title":
-      "Construindo interfaces de produto que fazem trabalho complicado parecer óbvio.",
+    "hero.title": "Construindo interfaces de produto que fazem trabalho complicado parecer óbvio.",
     "hero.summary":
       "Desenvolvedor fullstack com foco em frontend web, criando aplicações complexas e orientadas a produto com React, Vue e Node.js. Gosto de transformar fluxos bagunçados em produtos confiáveis e úteis.",
     "hero.primaryCta": "Ver trabalhos",
@@ -142,13 +132,10 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
     "section.skills.description":
       "O stack puxa para interfaces de produto, mas o trabalho cruza APIs, dados, AWS, dashboards e caminhos de deploy.",
     "section.credentials.eyebrow": "Credenciais",
-    "section.credentials.title":
-      "Base em ciência da computação, mais prática real com cloud.",
-    "section.credentials.description":
-      "Formação, certificação e contexto de idioma do currículo.",
+    "section.credentials.title": "Base em ciência da computação, mais prática real com cloud.",
+    "section.credentials.description": "Formação, certificação e contexto de idioma do currículo.",
     "section.contact.eyebrow": "Vamos construir",
-    "section.contact.title":
-      "Precisa de alguém que transite entre UI, produto e entrega?",
+    "section.contact.title": "Precisa de alguém que transite entre UI, produto e entrega?",
     "section.contact.email": "Me chamar por e-mail",
     "section.contact.resume": "Currículo PDF",
     "work.garantiabr.company": "Elevential",

@@ -6,12 +6,7 @@ import { HeroSection } from "@/components/molecules/hero-section";
 import { ProjectCard } from "@/components/molecules/project-card";
 import { SectionHeading } from "@/components/molecules/section-heading";
 import { SkillsSection } from "@/components/molecules/skills-section";
-import {
-  credentials,
-  projects,
-  skillGroups,
-  resolveLocale,
-} from "@/data/resume";
+import { credentials, projects, skillGroups, resolveLocale } from "@/data/resume";
 import { messages, type LocaleKey } from "@/i18n/messages";
 
 export function App() {
@@ -44,7 +39,10 @@ export function App() {
         <HeroSection
           onToggleLocale={() => setLocale((current) => (current === "en" ? "pt" : "en"))}
         />
-        <section id="work" className="container py-14 sm:py-20">
+        <section
+          id="work"
+          className="container py-14 sm:py-20"
+        >
           <SectionHeading
             eyebrow={messages[locale]["section.work.eyebrow"]}
             title={messages[locale]["section.work.title"]}
@@ -52,7 +50,11 @@ export function App() {
           />
           <div className="mt-9 grid gap-5 lg:grid-cols-2">
             {projects.map((project, index) => (
-              <ProjectCard key={project.id} project={project} index={index} />
+              <ProjectCard
+                key={project.id}
+                project={project}
+                index={index}
+              />
             ))}
           </div>
         </section>

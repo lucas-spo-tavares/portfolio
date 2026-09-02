@@ -8,7 +8,10 @@ export function SkillsSection({ skills }: { skills: ReadonlyArray<SkillGroup> })
   const intl = useIntl();
 
   return (
-    <section id="skills" className="container py-14 sm:py-20">
+    <section
+      id="skills"
+      className="container py-14 sm:py-20"
+    >
       <div className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr] lg:items-start">
         <SectionHeading
           eyebrow={intl.formatMessage({ id: "section.skills.eyebrow" })}
@@ -25,7 +28,10 @@ export function SkillsSection({ skills }: { skills: ReadonlyArray<SkillGroup> })
                 </h3>
                 <div className="mt-3 flex flex-wrap gap-2">
                   {group.items.map((item) => (
-                    <Badge key={item} variant="outline">
+                    <Badge
+                      key={item}
+                      variant="outline"
+                    >
                       {item}
                     </Badge>
                   ))}

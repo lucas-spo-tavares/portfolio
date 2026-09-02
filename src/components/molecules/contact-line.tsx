@@ -20,7 +20,10 @@ export function ContactLine({
 
   if (href) {
     return (
-      <a className="flex items-center gap-3" href={href}>
+      <a
+        className="flex items-center gap-3"
+        href={href}
+      >
         {content}
       </a>
     );

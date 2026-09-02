@@ -20,14 +20,26 @@ export function ContactSection() {
             </h2>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
-            <Button asChild variant="secondary" size="lg">
+            <Button
+              asChild
+              variant="secondary"
+              size="lg"
+            >
               <a href={`mailto:${profile.email}`}>
                 <Mail className="h-4 w-4" />
                 {intl.formatMessage({ id: "section.contact.email" })}
               </a>
             </Button>
-            <Button asChild variant="secondary" size="lg">
-              <a href={profile.resumeUrl} target="_blank" rel="noreferrer">
+            <Button
+              asChild
+              variant="secondary"
+              size="lg"
+            >
+              <a
+                href={profile.resumeUrl}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FileDown className="h-4 w-4" />
                 {intl.formatMessage({ id: "section.contact.resume" })}
               </a>
@@ -38,7 +50,11 @@ export function ContactSection() {
               size="lg"
               className="border-background/20 bg-background/10 text-background hover:bg-background/20"
             >
-              <a href={profile.linkedin} target="_blank" rel="noreferrer">
+              <a
+                href={profile.linkedin}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Link className="h-4 w-4" />
                 {intl.formatMessage({ id: "social.linkedin" })}
               </a>
@@ -49,7 +65,11 @@ export function ContactSection() {
               size="lg"
               className="border-background/20 bg-background/10 text-background hover:bg-background/20"
             >
-              <a href={profile.github} target="_blank" rel="noreferrer">
+              <a
+                href={profile.github}
+                target="_blank"
+                rel="noreferrer"
+              >
                 <Code2 className="h-4 w-4" />
                 {intl.formatMessage({ id: "social.github" })}
               </a>

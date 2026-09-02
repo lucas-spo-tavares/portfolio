@@ -4,13 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import type { Project } from "@/data/resume";
 
-export function ProjectCard({
-  project,
-  index,
-}: {
-  project: Project;
-  index: number;
-}) {
+export function ProjectCard({ project, index }: { project: Project; index: number }) {
   const intl = useIntl();
 
   return (
@@ -28,7 +22,10 @@ export function ProjectCard({
           </div>
           <div className="flex flex-wrap gap-2 sm:justify-end">
             {project.stack.map((item) => (
-              <Badge key={item} variant="secondary">
+              <Badge
+                key={item}
+                variant="secondary"
+              >
                 {item}
               </Badge>
             ))}
@@ -38,11 +35,12 @@ export function ProjectCard({
       <CardContent>
         <ul className="space-y-3 text-sm leading-7 text-muted-foreground">
           {project.bullets.map((bullet) => (
-            <li key={bullet} className="flex gap-3">
+            <li
+              key={bullet}
+              className="flex gap-3"
+            >
               <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-primary" />
-              <span>
-                {intl.formatMessage({ id: `work.${project.id}.${bullet}` })}
-              </span>
+              <span>{intl.formatMessage({ id: `work.${project.id}.${bullet}` })}</span>
             </li>
           ))}
         </ul>

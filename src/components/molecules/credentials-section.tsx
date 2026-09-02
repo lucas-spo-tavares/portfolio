@@ -4,15 +4,14 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { SectionHeading } from "@/components/molecules/section-heading";
 import type { Credential } from "@/data/resume";
 
-export function CredentialsSection({
-  credentials,
-}: {
-  credentials: ReadonlyArray<Credential>;
-}) {
+export function CredentialsSection({ credentials }: { credentials: ReadonlyArray<Credential> }) {
   const intl = useIntl();
 
   return (
-    <section id="credentials" className="container py-14 sm:py-20">
+    <section
+      id="credentials"
+      className="container py-14 sm:py-20"
+    >
       <SectionHeading
         eyebrow={intl.formatMessage({ id: "section.credentials.eyebrow" })}
         title={intl.formatMessage({ id: "section.credentials.title" })}
@@ -20,7 +19,10 @@ export function CredentialsSection({
       />
       <div className="mt-9 grid gap-4 md:grid-cols-3">
         {credentials.map((credential) => (
-          <Card key={credential.id} className="group">
+          <Card
+            key={credential.id}
+            className="group"
+          >
             <CardHeader>
               <BadgeCheck className="h-5 w-5 text-primary" />
               <CardTitle className="text-xl">

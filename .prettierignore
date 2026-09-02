@@ -1,0 +1,12 @@
+dist
+node_modules
+public/Resume.pdf
+.tmp
+.env
+.env.*
+!.env.example
+*.tex
+*.tf
+.terraform
+*.tfstate
+*.tfstate.*
