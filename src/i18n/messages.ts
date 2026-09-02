@@ -56,13 +56,24 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
       "Created reusable UI components that became a shared design system across projects.",
     "work.auren.company": "Elevential",
     "work.auren.period": "Sep 2023 - Present",
-    "work.auren.title": "Auren - Energy Commercialization Platform",
+    "work.auren.title": "Auren - Energy Commercialization Platform - Partner Portal",
     "work.auren.b1":
       "Replaced spreadsheet-and-email workflows with a B2B partner portal for 30+ partners.",
     "work.auren.b2":
       "Built the frontend from scratch and integrated real-time quotation status tracking.",
     "work.auren.b3":
       "Delivered marketing campaign features for anniversary and Black Friday flows.",
+    "work.auren-smart.company": "Elevential",
+    "work.auren-smart.period": "Sep 2023 - Present",
+    "work.auren-smart.title": "Auren - Energy Commercialization Platform - Smart",
+    "work.auren-smart.b1":
+      "Implemented AWS Real User Monitoring (RUM) to provide visibility into real-world frontend performance and user experience.",
+    "work.auren-smart.b2":
+      "Reduced deployment time from 8 to 4 minutes by improving the deployment pipeline.",
+    "work.auren-smart.b3":
+      "Migrated a 5+ year-old application from Vue 2 to Vue 3, modernizing the frontend foundation while preserving product continuity.",
+    "work.auren-smart.b4":
+      "Redesigned the Git workflow: feature branches originate from master, are validated in dev, then promoted to release for final testing before deployment to master.",
     "work.solucx.company": "Elevential",
     "work.solucx.period": "Sep 2023 - Present",
     "work.solucx.title": "Solucx - Feedback and Analytics Dashboard",
@@ -151,13 +162,24 @@ export const messages: Record<LocaleKey, MessageCatalog> = {
       "Criei componentes reutilizáveis que viraram um design system compartilhado entre projetos.",
     "work.auren.company": "Elevential",
     "work.auren.period": "Set 2023 - Atual",
-    "work.auren.title": "Auren - Plataforma de Comercialização de Energia",
+    "work.auren.title": "Auren - Energy Commercialization Platform - Partner Portal",
     "work.auren.b1":
       "Troquei fluxo de planilha e e-mail por um portal B2B para mais de 30 parceiros.",
     "work.auren.b2":
       "Entreguei o frontend do zero e integrei acompanhamento em tempo real dos status de cotação.",
     "work.auren.b3":
       "Desenvolvi features de campanhas de marketing para aniversários e Black Friday.",
+    "work.auren-smart.company": "Elevential",
+    "work.auren-smart.period": "Set 2023 - Atual",
+    "work.auren-smart.title": "Auren - Energy Commercialization Platform - Smart",
+    "work.auren-smart.b1":
+      "Implementei o AWS Real User Monitoring (RUM) para dar visibilidade sobre a performance real do frontend e a experiência dos usuários.",
+    "work.auren-smart.b2":
+      "Reduzi o tempo de deploy de 8 para 4 minutos ao melhorar o pipeline de deploy.",
+    "work.auren-smart.b3":
+      "Migrei uma aplicação com mais de 5 anos do Vue 2 para o Vue 3, modernizando sua base de frontend sem interromper a continuidade do produto.",
+    "work.auren-smart.b4":
+      "Redesenhei o fluxo de Git: feature branches nascem da master, são validadas em dev e seguem para release para testes finais antes do deploy na master.",
     "work.solucx.company": "Elevential",
     "work.solucx.period": "Set 2023 - Atual",
     "work.solucx.title": "Solucx - Dashboard de Feedback e Analytics",
